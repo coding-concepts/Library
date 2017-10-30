@@ -127,7 +127,7 @@ public class FileStorage {
                 ex.printStackTrace();
             }
         }
-        System.out.println(sb.toString());
+
         return sb.toString();
     }
 

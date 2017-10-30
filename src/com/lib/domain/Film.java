@@ -30,6 +30,11 @@ public class Film implements Entity{
         this.title = t;
         this.noOfAvailableCopies = c;
     }
+    public Film(String id, String t, int c){
+        this.title = t;
+        this.id = id;
+        this.noOfAvailableCopies = c;
+    }
 
     /**
      * Gets id

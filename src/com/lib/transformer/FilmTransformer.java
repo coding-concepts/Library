@@ -59,8 +59,8 @@ public class FilmTransformer implements EntityTransformer {
             throw new RuntimeException("Can't convert to Film");
         }
 
-        Film f = new Film(strings[1], Integer.parseInt(strings[2]));
-        f.setId(strings[0]);
+        Film f = new Film(strings[0], strings[1], Integer.parseInt(strings[2]));
+
 
         return f;
 
